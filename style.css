@@ -1,0 +1,41 @@
+.contact{
+    margin-left: 400px;
+    margin-top: 6.5px;
+}
+.logo{
+    margin-left: 80px;
+}
+.colorItems{
+    color: black;
+    margin-right: 40px;
+}
+.colorItems1{
+    color:#133f6c;  
+}
+.colorItem{
+    color: black;
+    margin-left: 440px;
+}
+.first{
+    margin-left: 90px;
+}
+.search{
+    margin-right: 10px;
+    margin-left: 400px;
+}
+.second{
+    margin-top: 50px;
+}
+.new{
+    background-color: rgb(160, 17, 17);
+}
+#pin{
+    border-radius: 5px;
+}
+#submit{
+    background-color: rgb(160, 17, 17);
+    color: white;
+    font-weight: 500;  
+    margin-left: 625px;
+    margin-top: 15px; 
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./logo.png" class="img-fluid mb-1 logo" alt="Logo" width="150px" height="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link colorItems1 fs-3 fw-bolder" aria-current="page" href="#">INDIAN POSTAL CIRCLE</a>
+              </li>    
+              <li class="nav-item">
+                <a class="nav-link contact fs-5 colorItem fw-semibold" aria-current="page" href="#">Contact Us</a>
+              </li>           
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav first">
+              <li class="nav-item">
+                <a class="nav-link colorItems fw-semibold" aria-current="page" href="#">HOME</a>
+              </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorItems fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ABOUT THE CIRCLE
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorItems fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PRODUCTS & SERVICES
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorItems fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  NETWORK
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorItems fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  HELP & SUPPORT
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorItems fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  POSTAL APPS
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex second">
+        <div>
+        <label for="" class="search p-2 fw-bold fs-5">ENTER THE PINCODE</label>
+    </div>
+    <div>
+        <input type="text" placeholder="Search" class="p-2" id="pin">
+      </div>
+    </div>
+      <div>
+        <button type="submit" id="submit" class="btn">Submit</button>
+      </div>
+    
+    <div class="container d-flex flex-row flex-wrap justify-content-around" id="main">
+        
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
